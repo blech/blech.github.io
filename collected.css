@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+body {
+/*
+  background:url("/beta/underline16.gif");
+*/
+  background-color: #fff;
+  margin: 0;
+  padding-top: 0.64em;
+  padding-left: 1.5em;
+  font-size:75%;
+  font-family:"helvetica neue", helvetica, arial, sans-serif;
+}
+
+html>body {
+  padding-top: 0.18em;
+  font-size:12px;
+}
+
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td {
+  margin:0;
+  padding:0;
+}
+
+#header {}
+
+#main {
+  float: left;
+  width: 40em;
+/*  padding-left: 0.5em;*/
+}
+
+#side {
+  float: left;
+  width: 240px; /* or 20em, but Flickr do images in pixels */
+  margin-left: 1em;
+}
+
+h1 {
+  color: #ccc;
+/*
+  background: #fff;
+*/
+  font-size: 36px;
+  letter-spacing: -0.05em;
+  line-height: 48px;
+  padding-bottom: 9px;
+}
+
+h1 a {
+  color: #ccc;
+}
+
+h1 span.sub {
+  font-size: 0.5em;
+  letter-spacing: 0em;
+}
+
+h1 span.sub a {
+  color: #999;
+}
+
+h1 span.sub a:hover {
+  color: #999;
+  background: #fff;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.333em;
+  line-height: 1em;   /* 16px */
+  margin-top: -2px;
+  margin-bottom: 2px;
+
+/*
+  line-height: 0.8125em;   /* 16px */
+*/
+  letter-spacing: -0.03em;
+/*
+  margin-left: 0.5em;
+*/
+  color: #999;
+/*
+  padding-top: 0.5em;
+  padding-bottom: 0.33em;
+  margin-bottom: 0.1em;
+  border-bottom: 0.07em solid #999;
+*/
+}
+
+h2.big {
+  padding-top: 1em;
+}
+
+h2 span.time {
+  font-size: 0.5em;
+  line-height: 0em;
+  color: #666;
+/*
+  background: #fff;
+*/
+  text-align:right;
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 1.333em;
+  letter-spacing: -0.05em;
+}
+
+p,div {
+	font-size:1em;
+	line-height:1.333em;
+	margin:0 0 1.333em 0;
+}
+
+ul {
+	font-size:1em;
+	line-height:1.333em;
+	margin:0 0 1.333em 0;
+}
+
+ul li {
+  list-style-type: disc;
+  margin-left: 1.333em;
+}
+
+ul ul li {
+  list-style-type: circle;
+  margin-left: 2.666em;
+}
+
+img {
+  border: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #00f;
+/*
+  background: #fff;
+*/
+}
+
+a:hover {
+  color: #fff;
+  background: #00f;
+}
+
+ul.nav {
+  border-top: 1px solid #999;
+  margin-top: -2px;
+  padding-top: 1px;
+/*  margin-bottom: 14px; */;
+  margin-bottom: 16px;
+}
+
+ul.nav li {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 0;
+}
+
+ul.nav li a {
+  width: 96px;
+  display: block;
+  float: left;
+  text-align: left;
+}
+
+ul.nav li a:hover {
+  color: #00f;
+  background: #fff;
+  text-decoration: underline;
+}
+
+div.attribution {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.333em;
+  color: #999;
+/*
+  background: #fff;
+*/
+  letter-spacing: -0.03em;
+  text-align: right;
+  margin: 0;
+}
+
+div.attribution a {
+  color: #999;
+}
+
+div.attribution a:hover {
+  color: #fff;
+}
+
+div.enclosure {
+  /* margin-top: -0.1em !important; */
+  padding: 0 !important;
+/*
+  height: 13.33em;
+  width: 13.33em;	
+*/
+  height: 10.666em;
+}
+
+div.enclosure-medium {
+  height: 13.333em;
+}
+
+div.enclosure-left {
+  margin-right: 16px;
+}
+
+div.enclosure-inner {
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+div.flickr {
+  margin-top: -2px;
+  border-top: 1px solid #999;
+  padding-top: 15px;
+}
+
+div.image {
+  height: 240px;
+  width: 240px;
+}
+
+div.delicious {
+  border-top: 1px solid #999;
+  margin-top:-2px;
+  padding-top: 6px;
+}
+
+div.stem {
+  border-top: 1px solid #999;
+  margin-top:-2px;
+  padding-top: -1px;
+  padding-bottom: 2px;
+/*
+  margin-bottom: 0px;
+*/
+}
+
+div.delicious h3.first-child {
+  /* would rather use the :first-child selector
+   * but there's no IE support, so instead we
+   * use TT's loop.first to embed a class */
+  margin-top: -5px;
+}
+
+div.delicious h3 {
+  font-size: 1.333em;
+  line-height: 1em;
+  letter-spacing: -0.01em;
+}
+
+div.chaff h3, div.vox h3 {
+  margin-top: -2px;
+  border-top: 1px solid #999;
+  margin-bottom: 2px;
+}
+
+div.stem h3 {
+  font-size: 1.333em;
+  line-height: 1em;
+  letter-spacing: -0.01em;
+}
+
+div.chaff div.attribution, div.vox div.attribution {
+  margin-top: -1px;
+}
+
+div.small {
+  height: 160px;
+}
+
+div.wide {
+  height: 144px;
+}
+
+blockquote {
+  border-left: 1px solid #999;
+  margin-left: 1em;
+  padding-left: 3px;
+}
+
+blockquote.before {
+  
+}
