@@ -292,3 +292,7 @@ blockquote {
 blockquote.before {
   
 }
+
+pre { 
+  font: 9px Monaco, ProFont, Courier, monospace;
+}
